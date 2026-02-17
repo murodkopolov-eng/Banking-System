@@ -12,11 +12,11 @@ The database is structured using a Star Schema to enable efficient analytics and
 
 Create a realistic banking data warehouse with multiple related tables. Implement a Star Schema to optimize queries and analytics. Populate tables with synthetic data using Python Faker. Calculate key performance indicators (KPIs) to simulate real-world banking analytics.
 
-Star Schema Structure
+## Star Schema Structure
 
 Fact Tables: Transactions, Loans, Account Balances Dimension Tables: Customers, Branches, Accounts, Loan Types, etc. Relationships: Primary and foreign keys are defined to link dimensions with fact tables, supporting efficient joins for KPI calculations.
 
-KPIs Computed
+## KPIs Computed
 
 - Top 3 Customers with the Highest Total Balance Across All Accounts. 
 
@@ -34,7 +34,7 @@ KPIs Computed
 
 - Find top 3 employees in each department with the highest salary
 
-Tools and Technologies
+## Tools and Technologies
 
 - Python for data generation (Faker library) 
 
